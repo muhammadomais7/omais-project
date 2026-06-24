@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-with open("model.pkl", "rb") as file:
+with open("heart_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Machine Learning Prediction App")
